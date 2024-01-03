@@ -10,24 +10,24 @@
 // Software settings
 //*****************************************************************************
 
-#define HOSTNAME "QLOCKWORK"
-#define WEBSITE_TITLE "QLOCKWORKs page"
+#define HOSTNAME "Qlockwork-ESP"
+#define WEBSITE_TITLE "Qlockwork Settings"
 //#define DEDICATION "The only reason for time is so that everything doesn't happen at once.<br>(Albert Einstein)"
-#define WIFI_SETUP_TIMEOUT 120
-#define WIFI_AP_PASS "12345678"
-#define OTA_PASS "1234"
-#define NTP_SERVER "pool.ntp.org"
+#define WIFI_SETUP_TIMEOUT 60
+#define WIFI_AP_PASS "ESP-Is-Cool!"
+#define OTA_PASS "ESP-Is-Cool!"
+#define NTP_SERVER "de.pool.ntp.org"
 #define SHOW_IP
 //#define WIFI_BEEPS
 
 //#define NONE_TECHNICAL_ZERO
 #define AUTO_MODECHANGE_TIME 60 // seconds
-#define EVENT_TIME 300 // seconds
+#define EVENT_TIME 600 // seconds
 #define ALARM_LED_COLOR RED
-//#define ABUSE_CORNER_LED_FOR_ALARM
+#define ABUSE_CORNER_LED_FOR_ALARM
 
 //#define POWERON_SELFTEST
-#define SHOW_MODE_AMPM
+//#define SHOW_MODE_AMPM
 #define SHOW_MODE_SECONDS
 #define SHOW_MODE_WEEKDAY
 #define SHOW_MODE_DATE
@@ -41,11 +41,11 @@
 //#define LOCATION "Hong Kong, HK"
 
 //#define FRONTCOVER_EN
-#define FRONTCOVER_DE_DE
+//#define FRONTCOVER_DE_DE
 //#define FRONTCOVER_DE_SW
 //#define FRONTCOVER_DE_BA
 //#define FRONTCOVER_DE_SA
-//#define FRONTCOVER_DE_MKF_DE
+#define FRONTCOVER_DE_MKF_DE
 //#define FRONTCOVER_DE_MKF_SW
 //#define FRONTCOVER_DE_MKF_BA
 //#define FRONTCOVER_DE_MKF_SA
@@ -100,7 +100,7 @@
 
 #define SERIAL_SPEED 115200
 
-#define NUMPIXELS 115
+#define NUMPIXELS 114
 
 //#define ONOFF_BUTTON
 //#define MODE_BUTTON
@@ -139,7 +139,8 @@
 #define IR_LETTER_X 8
 #define IR_LETTER_Y 10
 
-#define LED_LAYOUT_HORIZONTAL_1
+//#define LED_LAYOUT_HORIZONTAL_1
+#define LED_LAYOUT_HORIZONTAL_2
 //#define LED_LAYOUT_VERTICAL_1
 //#define LED_LAYOUT_VERTICAL_2
 //#define LED_LAYOUT_VERTICAL_3
@@ -164,8 +165,8 @@
 //#define SYSLOGSERVER_SERVER "192.168.0.1"
 //#define SYSLOGSERVER_PORT 514
 
-#define UPDATE_INFOSERVER "thorsten-wahl.ch"
-#define UPDATE_INFOFILE "/qlockwork/updateinfo.json"
+//#define UPDATE_INFOSERVER "thorsten-wahl.ch"
+//#define UPDATE_INFOFILE "/qlockwork/updateinfo.json"
 
 // ESP8266
 #define PIN_IR_RECEIVER  16 // D0 (no interrupt)
